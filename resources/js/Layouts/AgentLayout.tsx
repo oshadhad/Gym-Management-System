@@ -38,25 +38,7 @@ export default function Authenticated({
                         {/* <Footer /> */}
                     </div>
                 </div>
-                <div className="container mx-auto text-center pt-[100px] pb-4 lg:pl-[240px]">
-                    <p className="text-sm text-gray-800 space-x-2 text-center">
-                        <span>
-                            Copyright &copy; {date.getFullYear()}, HRM. All
-                            rights reserved,
-                        </span>
-                        <span>
-                            Developed By{" "}
-                            <a
-                                target="_blank"
-                                href="https://axcertro.com?ref=HRM"
-                                className="font-[800]"
-                            >
-                                Axcertro
-                            </a>{" "}
-                            <span>With ❤️</span>
-                        </span>
-                    </p>
-                </div>
+               
             </div>
             <FlashAlerts flash={pageProps.flash} />
         </>
